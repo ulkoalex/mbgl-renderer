@@ -2,7 +2,7 @@
 
 FROM buildpack-deps:jammy
 
-ENV NODE_VERSION=22.15.1
+ENV NODE_VERSION=22.23.4
 ENV NVM_DIR=/usr/local/nvm
 ENV NODE_PATH=$NVM_DIR/versions/node/$NODE_VERSION/bin
 ENV PATH=$NODE_PATH:$PATH
